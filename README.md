@@ -10,7 +10,7 @@ Hardware a utilizar es el siguiente:
         OS = Arch Linux kernel version (6.3.2-arch1-1)
     PC2:
         Procesador = Intel Xeon E5-2680v4 (14C / 28T) 2.4GHz
-        RAM = 16GB DDR4 2400MHz
+        RAM = 16GB DDR4 2133MHz
         OS = Arch Linux kernel version (6.3.2-arch1-1)
     Servidor:
         Procesador = 2x Intel Xeon E5-2407 (4C / 4H) 2.2GHz
