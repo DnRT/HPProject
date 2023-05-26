@@ -4,11 +4,7 @@ Implementacion de algoritmo A* de bajo los paradigmas de alto desempeño vectori
 
 Hardware a utilizar es el siguiente:
 ```
-    PC1:
-        Procesador = AMD FX 9830P (4C / 4T)  3.0GHz
-        RAM = 12GB DDR4 2133MHz
-        OS = Arch Linux kernel version (6.3.2-arch1-1)
-    PC2:
+    PC:
         Procesador = Intel Xeon E5-2680v4 (14C / 28T) 2.4GHz
         RAM = 16GB DDR4 2133MHz
         OS = Arch Linux kernel version (6.3.2-arch1-1)

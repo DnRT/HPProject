@@ -17,6 +17,7 @@
 class Node;
 class Graph;
 
+typedef std::vector<Node*> NextNodes;
 
 struct coord_t {
 	uint32_t x;
