@@ -14,3 +14,12 @@ uint32_t Node::getCost(void) const{
 NextNodes Node::getNodes(void) const{
     return(nearStreets);
 }
+void Node::setPos(CoordXY p){
+    position = p;
+}
+void Node::setCost(uint32_t c){
+    cost = c;
+}
+void Node::setNearStreets(NextNodes nS){
+    nearStreets = nS;
+}
