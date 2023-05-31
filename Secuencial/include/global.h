@@ -16,6 +16,7 @@
 
 class Node;
 class Graph;
+class A;
 
 typedef std::vector<Node*> NextNodes;
 

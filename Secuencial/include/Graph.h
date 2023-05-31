@@ -3,10 +3,9 @@
 
 class Graph {
     private:
-        std::vector<Node*> nodes;
+        std::vector<std::vector<Node*>> nodes;
 
         CoordXY size;
     public:
-        Graph();
-        uint32_t ManhattanLong(Node n1, Node n2);
+        Graph(std::vector<std::vector<Node*>> ady, CoordXY s);
 }
