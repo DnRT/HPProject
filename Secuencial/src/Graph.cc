@@ -10,8 +10,10 @@ CoordXY Graph::getSize(void) const{
     return(size);
 }
 uint32_t Graph::ManhattanLong(Node n1, Node n2){
-    uint32_t difX = (n2.getPos().x - n1.getPos().x);
-    uint32_t difY = (n2.getPos().y - n1.getPos().y);
+    uint32_t difX = (n1.getPos().x - n2.getPos().x);
+    if(difX < 0) difX *=-1;
+    uint32_t difY = (n1.getPos().y - n2.getPos().y);
+    if(difY < 0) difY *=-1;
     uint32_t dist = difX + difY;
     return(dist);
 }

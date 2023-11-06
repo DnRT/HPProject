@@ -5,16 +5,11 @@ Implementacion de algoritmo A* de bajo los paradigmas de alto desempeño vectori
 Hardware a utilizar es el siguiente:
 ```
     PC:
-        Procesador = Intel Xeon E5-2680v4 (14C / 28T) 2.4GHz
-        RAM = 16GB DDR4 2133MHz
+        Procesador = Intel Xeon X5680 (6C / 12T) 3.33GHz
+        RAM = 12GB DDR3 1333MHz
         OS = Arch Linux kernel version (6.3.2-arch1-1)
-    Servidor:
-        Procesador = 2x Intel Xeon E5-2407 (4C / 4H) 2.2GHz
-        RAM = 32GB DDR3 1066MHz
-        OS= Ubuntu 20.04.6 LTS (GNU/Linux 5.4.0-144-generic)
+             Windows 10 (22H2)
 ```
-
-Cabe recalcar que se consideraran como mas relevantes los experimentos realizados en el ```Servidor``` esto debido por conveniencia y tener un punto de comparacion dentro mas fidedigno.
 
 Como detalles se utilizara la heuristica de la distancia de Manhattan la cual tiene la siguiente formula:
 
