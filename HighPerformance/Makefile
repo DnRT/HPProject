@@ -14,7 +14,7 @@ CXXFLAGS += -fopenmp
 
 # Opciones de MPI
 MPICXX = mpicxx
-MPIFLAGS = -DMPICH_SKIP_MPICXX -I/path/to/mpi/include -L/path/to/mpi/lib -lmpi
+MPIFLAGS = -DMPICH_SKIP_MPICXX -ID:/Microsoft SDKs/MPI/Include -LD:/Microsoft SDKs/MPI/Lib -lmpi
 
 # Opciones de memoria vectorial
 CXXFLAGS += -mavx2
@@ -25,10 +25,10 @@ OBJECTS = $(SRC:.cpp=.o)
 all: $(TARGET)
 
 $(TARGET): $(OBJECTS)
-    $(MPICXX) $(CXXFLAGS) $(MPIFLAGS) $(OBJECTS) -o $(DEST)/$@
+    $(MPICXX) $(CXXFLAGS) $(MPIFLAGS) $(OBJECTS) -o $@
 
 .cpp.o:
-    $(CXX) $(CXXFLAGS) -c $(OBJECTS)$< -o $(DEST)/$@
+    $(CXX) $(CXXFLAGS) -c $(OBJECTS) -o $@
 
 clean:
     rm -f $(TARGET) $(OBJECTS)
