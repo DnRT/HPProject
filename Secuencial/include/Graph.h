@@ -1,5 +1,5 @@
-#include <global.h>
-#include <Node.h>
+#include "global.h"
+#include "Node.h"
 
 class Graph {
     private:
@@ -13,4 +13,4 @@ class Graph {
         uint32_t calcF(void);
         uint32_t calcG(void);
         uint32_t calcH(void);
-}
+};

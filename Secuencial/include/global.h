@@ -16,7 +16,7 @@
 
 class Node;
 class Graph;
-class A;
+class AStar;
 
 typedef std::vector<Node*> NextNodes;
 
@@ -27,3 +27,4 @@ struct coord_t {
 
 typedef struct coord_t CoordXY;
 
+#endif

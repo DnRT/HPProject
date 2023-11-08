@@ -1,5 +1,5 @@
-#include <Graph.h>
-#include <Node.h>
+#include "Graph.h"
+#include "Node.h"
 
 //Constructor
 Graph::Graph(std::vector<std::vector<Node*>> ady, CoordXY s){

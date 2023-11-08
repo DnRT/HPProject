@@ -1,4 +1,4 @@
-#include <global.h>
+#include "global.h"
 
 class Node {
     private:
@@ -12,6 +12,6 @@ class Node {
         NextNodes getStreets(void) const;
         void setPos(CoordXY p);
         void setCost(uint32_t c);
-        void setNearStreets(NextNodes nS);
+        void setStreets(NextNodes nS);
 
-}
+};
