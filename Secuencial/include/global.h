@@ -18,13 +18,6 @@ class Node;
 class Graph;
 class AStar;
 
-typedef std::vector<Node*> NextNodes;
-
-struct coord_t {
-	uint32_t x;
-	uint32_t y;
-};
-
-typedef struct coord_t CoordXY;
+typedef std::vector<Node*> Nodes;
 
 #endif

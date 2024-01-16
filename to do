@@ -1,13 +1,29 @@
-1. create own graph
+1. Make base
+    1. create own graph
+        1. teorical design X
+        2. codificate 
+    2. build a* algorithm
+        1. find heuristics
+        2. implement them
+    3. combine graph and algorithm
+    4. make test plan
+        1. get dataset
+        2. adapt format to graph
+        3. design tests
 
-2. build a* algorithm
-
-3. implement graph on a*
-
-4. HP process
+2. HP process
     1. vectorial memory
+        1. search intrinsics
     2. parallel
         1. process
+            1. MPI
         2. threads
+            1. OpenMP
+    3. run tests
 
 5. Combine HP process
+    1. try 2 HP process
+        1. vectorial memory + parallel process
+        2. vectorial memory + parallel threads
+        3. parallel process + threads
+    2. try all 3 HP process

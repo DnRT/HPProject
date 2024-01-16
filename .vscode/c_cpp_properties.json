@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}\\Secuencial\\include",
+                "${workspaceFolder}\\HighPerformance\\include",
+                "${MSMPI_BIN}",
+                "${MSMPI_BENCHMARKS}",
+                "${MSMPI_INC}",
+                "${MSMPI_LIB64}",
+                "${MSMPI_LIB32}"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:\\Program Files\\mingw64\\bin\\gcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}
