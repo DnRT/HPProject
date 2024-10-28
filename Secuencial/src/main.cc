@@ -1,9 +1,10 @@
-#include "global.h"
-#include "checkArgs.hpp"
-#include "Node.h"
-#include "Graph.h"
+#include <global.h>
+#include <checkArgs.hpp>
 
-int main(int argc, char *argv []){
+#include <Node.h>
+#include <Graph.h>
+#include <AStar.h>
 
-    return (EXIT_SUCCESS);
+int main(){
+    
 }
