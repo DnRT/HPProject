@@ -1,17 +1,17 @@
-#include "global.h"
+#ifndef _NODE_HH_
+#define _NODE_HH_
+
+#include <global.h>
 
 class Node {
     private:
         uint32_t cost;
-        CoordXY position;
-        NextNodes nearStreets;
+        Nodes nearStreets;
     public:
-        Node(CoordXY p, uint32_t c, NextNodes nS);
-        CoordXY getPos(void) const;
+        Node(uint32_t, Nodes);
+        ~Node(void);
         uint32_t getCost(void) const;
-        NextNodes getStreets(void) const;
-        void setPos(CoordXY p);
-        void setCost(uint32_t c);
-        void setStreets(NextNodes nS);
+        Nodes getStreets(void) const;
 
 };
+#endif

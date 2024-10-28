@@ -1,15 +1,16 @@
-#include "global.h"
-#include "Graph.h"
+#include <global.h>
+
+#include <Graph.h>
 
 class AStar{
     private:
         Graph map;
         Node start;
-        NextNodes open, closed;
+        Nodes open, closed;
     public:
         AStar(Graph g, Node s);
-        NextNodes Algorithm(Node end);
-        NextNodes Path(Node n);
-        NextNodes NextStep(Node n);
+        Nodes Algorithm(Node end);
+        Nodes Path(Node n);
+        Nodes NextStep(Node n);
 
 };

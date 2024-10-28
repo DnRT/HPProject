@@ -1,0 +1,11 @@
+//MPI
+    gcc -I"C:\Program Files (x86)\Microsoft SDKs\MPI\Include" -I"C:\Program Files (x86)\Microsoft SDKs\MPI\Include\x64" -L"C:\Program Files (x86)\Microsoft SDKs\MPI\Lib\x64" file.c -o out.exe -lmsmpi
+    mpiexec -n process file.exe
+//OpenMP
+     gcc -fopenmp file.c -o out.exe
+     out.exe
+//cualquier caso para c++, usar g++
+//MPI + OpenMP
+//solo agregar -fopenmp al comando del MPI
+//intrinsics
+//agregar -m<intrinsic> al compilador

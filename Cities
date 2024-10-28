@@ -1,0 +1,20 @@
+//Debiles tamaño+ recursos ctes.
+//Fuertes tamaño cte. recursos+
+
+//dataset
+//https://wiki.openstreetmap.org/wiki/Planet.osm#Downloading
+Posibles ciudades a utilizar.
+
+Santiago (Chile): 641 km². ref
+Hong Kong (China): 2755 km². Santiagox4.3
+Malina (Filipinas): 1787 km². Santiagox2.8
+
+
+Ciudad del Vaticano: 0.49 km².
+Mónaco: 2.02 km².
+Nauru: 21 km².
+Hum (Croacia): 12.95 km².
+La Valeta (Malta): 0.8 km².
+Brescia (Italia): 90.3 km².
+Durbuy (Bélgica): 156.6 km².
+Garmisch-Partenkirchen (Alemania): 205.7 km².
